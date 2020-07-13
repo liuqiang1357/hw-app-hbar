@@ -2,12 +2,11 @@ const { splitPath } = require('./util');
 
 const CLA = 0xe0;
 const INS = {
-    "getPublicKey": 0x02,
-    "signTransaction": 0x04,
+    getPublicKey: 0x02,
+    signTransaction: 0x04,
 };
 
 class Hedera {
-
     constructor(transport, scrambleKey = "w0w") {
         this.transport = transport;
         transport.decorateAppAPIMethods(

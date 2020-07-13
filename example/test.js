@@ -11,12 +11,8 @@ async function test() {
   const publicKey = await app.getPublicKey(path);
   console.log(publicKey);
 
-  try {
-    const signature = await app.signTransaction(path, transaction);
-    console.log(signature);
-  } catch (error) {
-    console.log(error)
-  }
+  const signature = await app.signTransaction(path, transaction);
+  console.log(signature);
 }
 
-test();
+test().catch(console.error);
