@@ -7,7 +7,7 @@ const INS = {
 };
 
 class Hedera {
-    constructor(transport, scrambleKey = "w0w") {
+    constructor(transport, scrambleKey = "BOIL") {
         this.transport = transport;
         transport.decorateAppAPIMethods(
             this,

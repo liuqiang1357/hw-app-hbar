@@ -1,6 +1,6 @@
 {
   "name": "@ont-dev/hw-app-hbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ledger Javascript API for Hedera.",
   "main": "src/index.js",
   "scripts": {
