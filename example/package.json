@@ -11,6 +11,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.6.2",
     "@babel/register": "^7.6.2",
+    "@hashgraph/sdk": "^1.1.12",
     "@ledgerhq/hw-transport-node-hid": "^5.13.0",
     "@ont-dev/hw-app-hbar": "link:.."
   },
