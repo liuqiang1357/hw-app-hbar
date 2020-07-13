@@ -1,0 +1,24 @@
+{
+  "name": "@ont-dev/hw-app-hbar",
+  "version": "1.0.0",
+  "description": "Ledger Javascript API for Hedera.",
+  "main": "src/hedera.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuqiang1357/hw-app-hbar.git"
+  },
+  "keywords": [
+    "Ledger",
+    "Javascript",
+    "Hbar"
+  ],
+  "author": "liuqiang1357",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuqiang1357/hw-app-hbar/issues"
+  },
+  "homepage": "https://github.com/liuqiang1357/hw-app-hbar#readme"
+}
